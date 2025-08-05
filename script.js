@@ -6,9 +6,9 @@ const noBtn = document.querySelector(".no-btn");
 const additionalMessage = document.querySelector(".additional-message");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Tới công chuyện với bà mày rồi =)))))";
+  question.innerHTML = "Yêu em lắm lắm <3";
   gif.src =
-    "https://media.giphy.com/media/MFkTITj69pMOPlbfeX/giphy.gif";
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmQzb3I2ZnllcHc5M2gxOHN2dzRmaDdzYTFrN2duMHYzOG15bWNsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LOXAmVhFOdo0BmP9n6/giphy.gif";
   // Ẩn cả hai nút "Yes" và "No"
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
@@ -24,4 +24,5 @@ noBtn.addEventListener("mouseover", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+
 });
